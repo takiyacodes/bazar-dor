@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 বাজার দর (BazarDor)
 
-## Getting Started
+**বাজার দর** হলো একটি আধুনিক ও রেসপনসিভ ওয়েব অ্যাপ্লিকেশন, যার মাধ্যমে বাংলাদেশের বিভিন্ন বাজারের নিত্যপ্রয়োজনীয় পণ্যের আজকের দাম, দামের পরিবর্তন (বৃদ্ধি/হ্রাস) এবং বাজারভিত্তিক বিস্তারিত তথ্য এক নজরে দেখা যায়। 
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ প্রজেক্টের প্রধান ফিচারসমূহ (Key Features)
 
-## Learn More
+1. **📊 রিয়েল-টাইম প্রাইস ট্র্যাকিং ও প্রাইজ টিকার (Price Ticker Bar):**
+   - নেভবারের নিচে একটি ইনফিনিট স্ক্রোলিং প্রাইজ টিকার বার রয়েছে, যেখানে সবজির নাম, আজকের দর এবং শতাংশ পরিবর্তন (▲/▼/—) রিয়েল-টাইমে স্ক্রোল হয়।
+   - হোম পেজে **"আজ দাম বেড়েছে ▲"** এবং **"আজ দাম কমেছে ▼"** শীর্ষ পণ্যের জন্য আলাদা দুটি ডায়নামিক সেকশন।
 
-To learn more about Next.js, take a look at the following resources:
+2. **📅 ডায়নামিক বাংলা তারিখ ও ফিগমা একুরেট নেভবার:**
+   - ব্রাউজারের সময়ের সাথে তাল মিলিয়ে ডায়নামিক বাংলা তারিখ দেখায় (যেমন: *বৃহস্পতিবার, ১৫ অক্টোবর, ২০২৬*)।
+   - ক্যাটাগরি ফিল্টারিং, একটিভ লিঙ্ক হাইলাইট এবং ইউজার প্রোফাইল কাস্টম ড্রপডাউন মেনু।
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **⚖️ বাংলা সংখ্যা অনুযায়ী কাস্টম সর্টিং (Custom Sorting with Bengali Numerals):**
+   - চাল, ডাল, তেল সহ যেকোনো ক্যাটাগরি পেজে পণ্যের দাম অনুযায়ী **"ডিফল্ট"**, **"দাম: কম থেকে বেশি"**, এবং **"দাম: বেশি থেকে কম"** অনুযায়ী সর্ট করার সুবিধা।
+   - বাংলা সংখ্যা থাকা সত্ত্বেও নিউমেরিক ভ্যালু ধরে নিখুঁতভাবে সর্টিং সম্পন্ন হয়।
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **🔒 সুরক্ষিত প্রোডাক্ট ডিটেইলস ও বাজারভিত্তিক দর (Protected Detail Page):**
+   - শুধুমাত্র লগইন করা ব্যবহারকারীরা প্রোডাক্ট ডিটেইলস পেজে প্রবেশ করতে পারেন।
+   - নির্দিষ্ট প্রোডাক্টের সর্বোচ্চ, সর্বনিম্ন ও গড় দামের পাশাপাশি বিভিন্ন বাজারের আলাদা দরের তালিকা রেন্ডার করে।
 
-## Deploy on Vercel
+5. **🔐 বেটার-অথ এবং প্রোফাইল আপডেট সিস্টেম (BetterAuth Integration):**
+   - ইমেইল/পাসওয়ার্ড ও গুগল (Google) সোশ্যাল লগইন সিস্টেম।
+   - একই প্রোফাইল পেজে ইউজারের তথ্য প্রদর্শন, নাম হালনাগাদ (Update Profile) এবং সাইন আউট করার ব্যবস্থা।
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. **📱 রেসপনসিভ ডিজাইন ও ফ্রেন্ডলি ইউজার এক্সপেরিয়েন্স:**
+   - মোবাইল, ট্যাবলেট ও ডেস্কটপ সব ডিভাইসে সমানভাবে কার্যকরী ও সুন্দর লেআউট।
+   - ফাস্ট ডাটা ফেচিং, কাস্টম ৪০৪ পেজ, স্কেলেটন লোডিং (Skeleton Loaders) এবং হট-টোস্ট (Hot Toast) নোটিফিকেশন সিস্টেম।
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ ব্যবহৃত টেকনোলজি (Technologies Used)
+
+- **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language:** TypeScript / JavaScript
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) + DaisyUI
+- **Authentication:** [Better Auth](https://www.better-auth.com/) (Email/Password & Google OAuth)
+- **Icons:** React Icons (`react-icons/fi`)
+- **Toast Notifications:** React Hot Toast
+- **Deployment:** Vercel
+
+---
+
+## 🚀 লাইভ ডেমো ও লিংক (Live Link & Repository)
+
+- **🌐 Live Web App:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app) *(আপনার Vercel লিংক দিন)*
+- **📁 GitHub Repository:** [https://github.com/takiya3203/B14-A07-BazarDor](https://github.com/takiya3203/B14-A07-BazarDor) *(আপনার Repo লিংক দিন)*
+
+
