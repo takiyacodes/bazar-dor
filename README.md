@@ -51,6 +51,6 @@
 ## 🚀 লাইভ ডেমো ও লিংক (Live Link & Repository)
 
 - **🌐 Live Web App:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app) *(আপনার Vercel লিংক দিন)*
-- **📁 GitHub Repository:** [https://github.com/takiya3203/B14-A07-BazarDor](https://github.com/takiya3203/B14-A07-BazarDor) *(আপনার Repo লিংক দিন)*
+- **📁 GitHub Repository:** https://github.com/takiyacodes/bazar-dor.git
 
 
