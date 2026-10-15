@@ -48,7 +48,7 @@
 
 ## 🚀 লাইভ ডেমো ও লিংক (Live Link & Repository)
 
-- **🌐 Live Web App:** [https://your-project-name.vercel.app](https://your-project-name.vercel.app) *(আপনার Vercel লিংক দিন)*
+- **🌐 Live Web App:**  https://bazar-dor-nine-flame.vercel.app/
 - **📁 GitHub Repository:** https://github.com/takiyacodes/bazar-dor.git
 
 
